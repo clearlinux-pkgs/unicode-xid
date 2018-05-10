@@ -4,7 +4,7 @@
 #
 Name     : unicode-xid
 Version  : 0.1.0
-Release  : 2
+Release  : 3
 URL      : https://github.com/unicode-rs/unicode-xid/archive/v0.1.0.tar.gz
 Source0  : https://github.com/unicode-rs/unicode-xid/archive/v0.1.0.tar.gz
 Summary  : No detailed summary available

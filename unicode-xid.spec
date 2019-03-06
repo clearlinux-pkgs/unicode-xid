@@ -4,14 +4,13 @@
 #
 Name     : unicode-xid
 Version  : 0.1.0
-Release  : 4
+Release  : 5
 URL      : https://github.com/unicode-rs/unicode-xid/archive/v0.1.0.tar.gz
 Source0  : https://github.com/unicode-rs/unicode-xid/archive/v0.1.0.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0 MIT
-Requires: unicode-xid-data
-BuildRequires : cargo
+Requires: unicode-xid-data = %{version}-%{release}
 BuildRequires : rustc
 
 %description
@@ -65,7 +64,6 @@ cp -a . %{buildroot}/usr/share/rust/src/unicode-xid
 /usr/share/rust/src/unicode-xid/LICENSE-APACHE
 /usr/share/rust/src/unicode-xid/LICENSE-MIT
 /usr/share/rust/src/unicode-xid/README.md
-/usr/share/rust/src/unicode-xid/scripts/__pycache__/unicode.cpython-36.pyc
 /usr/share/rust/src/unicode-xid/scripts/unicode.py
 /usr/share/rust/src/unicode-xid/src/lib.rs
 /usr/share/rust/src/unicode-xid/src/tables.rs
